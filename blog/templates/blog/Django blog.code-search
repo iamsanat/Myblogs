@@ -1,0 +1,15 @@
+# Query: Django blog
+# ContextLines: 1
+
+3 results - 1 file
+
+blog/templates/blog/base.html:
+  15      {% if title %}
+  16:         <title>StoryLine - {{ title }}</title>
+  17      {% else %}
+  18:         <title>Django Blog</title>
+  19      {% endif %}
+
+  24          <div class="container">
+  25:           <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+  26            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
